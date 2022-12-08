@@ -42,7 +42,7 @@ class Resualt():
         for i in win:
             if i in lucky:
                 countd = countd + 1
-        print("the amount of pbol", countd)
+        print("the amount of mach number", countd)
         print("***************************************************************************")
         if win[5] == lucky[5] and countd == 5:
             print("jack point $324,000,000")

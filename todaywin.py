@@ -27,8 +27,8 @@ class LuckyNom(TodaysWin):
             lucky_number.append(lucy)
         lucky_index = random.sample(lucky_number, k=5)
         lucky_index.sort()
-        pbol = random.randint(1, 10)
-        lucky_index.append(pbol)
+        powerbol = random.randint(1, 10)
+        lucky_index.append(powerbol)
         print(Fore.BLUE, *lucky_index)  # to print out today's lucky_numbers by different colors.
         return lucky_index
 

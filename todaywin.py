@@ -1,8 +1,9 @@
 
 import random
 
-from color import *
 from colorama import Fore
+
+
 class TodaysWin():
 
     def todaywin(self):
